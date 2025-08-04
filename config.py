@@ -84,19 +84,19 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/7248d1a78213073dba5fe-e704de5e5d113413d2.jpg"
+    "START_IMG_URL", "https://graph.org/file/3a6ef6f745ccd31c07fe6-999c1d2e63bd97e235.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/7248d1a78213073dba5fe-e704de5e5d113413d2.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/7248d1a78213073dba5fe-e704de5e5d113413d2.jpg"
-STATS_IMG_URL = "https://graph.org/file/7248d1a78213073dba5fe-e704de5e5d113413d2.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/7248d1a78213073dba5fe-e704de5e5d113413d2.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-STREAM_IMG_URL = "https://graph.org/file/7248d1a78213073dba5fe-e704de5e5d113413d2.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/7248d1a78213073dba5fe-e704de5e5d113413d2.jpg"
-YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/7248d1a78213073dba5fe-e704de5e5d113413d2.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/3a6ef6f745ccd31c07fe6-999c1d2e63bd97e235.jpg"
+STATS_IMG_URL = "https://graph.org/file/3a6ef6f745ccd31c07fe6-999c1d2e63bd97e235.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/3a6ef6f745ccd31c07fe6-999c1d2e63bd97e235.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/3a6ef6f745ccd31c07fe6-999c1d2e63bd97e235.jpg"
+STREAM_IMG_URL = "https://graph.org/file/3a6ef6f745ccd31c07fe6-999c1d2e63bd97e235.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/3a6ef6f745ccd31c07fe6-999c1d2e63bd97e235.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/3a6ef6f745ccd31c07fe6-999c1d2e63bd97e235.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/3a6ef6f745ccd31c07fe6-999c1d2e63bd97e235.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/7248d1a78213073dba5fe-e704de5e5d113413d2.jpg"
 
@@ -120,6 +120,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
