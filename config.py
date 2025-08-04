@@ -35,7 +35,7 @@ BASE_API_KEY = getenv("BASE_API_KEY", "9d0517037a47eed38c9bf1f0743349a7")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/sachinopboy2/AviaxMusic",
+    "https://github.com/nandrepo1/Aviax-sanatani",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -120,5 +120,6 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
