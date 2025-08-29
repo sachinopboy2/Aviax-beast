@@ -85,21 +85,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
+    "START_IMG_URL", "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
+    "PING_IMG_URL", "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
-STATS_IMG_URL = "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
-STREAM_IMG_URL = "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/0a20263cfd8b97555e2d2-79f0dc4ffac8a268e2.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
+STATS_IMG_URL = "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
+STREAM_IMG_URL = "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/4edd675e662f5a3b98ad3-6d971d84996dfd97fe.jpg"
 
 
 def time_to_seconds(time):
@@ -121,6 +121,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
